@@ -17,6 +17,14 @@ import java.util.Scanner;
  * @author srinivsi 
  */
 public class Status {
+    
+    public enum StatusCode {
+        ZERO("REJECTED"),
+        ONE ("PENDING"),
+        TWO ("PROCESSING"),
+        THREE ("APPROVED"),
+        FOUR ("COMPLETED"); 
+    }
 
     /**
      * @param args the command line arguments
